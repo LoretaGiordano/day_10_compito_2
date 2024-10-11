@@ -117,27 +117,17 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
-while (numericArray.length < 32) {
-  console.log('DENTRO AL CICLO WHILE, ECCO COUNTER')
-}
-console.log('USCITI DAL CICLO!')
-
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni 
     di ogni carattere all'interno dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-const positionsArray = [7, 17, 21, 26, 4]
-const n = charactersArray.length === positionsArray.length
-// charactersArray[1] = positionsArray[1]
-// charactersArray[2] = positionsArray[2]
-// charactersArray[3] = positionsArray[3]
-// charactersArray[4] = positionsArray[4]
+const positionsArray = [7, 14, 21, 26, 4]
 const alphabetPositionArrey = []
-switch (n) {
+switch (charactersArray.length[(0, 4)] === positionsArray.lengthé[(0, 4)]) {
   case 'g':
-    alphabetPositionArrey.push(positionsArray[0])
+    alphabetPositionArrey.push(charactersArray[0])
     break
   case 'n':
     break
