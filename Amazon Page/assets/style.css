@@ -1,0 +1,88 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 1200px;
+    height: 80px;
+    background-color: #222F3F;
+    align-content: center;
+}
+
+.logo_amazon{
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    background-image: url(./images/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    width: 1160px;
+    height:40px;
+    background-color: #364759;
+    align-content: center;
+    padding-left: 40px;
+}
+
+nav p{
+    color: white;
+    display: inline;
+    margin-right: 10px;
+}
+
+main{
+    width: 1160px;
+    height: auto;
+    background-color: #E9EDEE;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.section_1{
+    width: 1120px;
+    height:30px;
+    background-color:#F56600 ;
+    text-align: center;
+    align-content: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.section_2{
+    width: 1120px;
+    height:200px;
+    background-image: url(./images/bg-image.png);
+    background-repeat: repeat;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 40px;
+}
+
+h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section_2 p{
+    color: white;
+    font-size: 1em;
+}
+
+.section_3{
+    width: 1105px;
+    height:200px;
+    background-color: #FFFFFF;
+    background-repeat: repeat;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
