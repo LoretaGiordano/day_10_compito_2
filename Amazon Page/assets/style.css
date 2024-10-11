@@ -202,7 +202,7 @@ a{
     width: 1200px;
     height:200px;
     background-color: #222F3F;
-    text-align: center;
+    text-align: -webkit-center;
     align-content: center;
 }
 
